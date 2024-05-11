@@ -1,0 +1,661 @@
+{
+	"format": 32,
+	"created_in": "1.2.9 (Patch 2, 2021.12.20)",
+	"project": {
+		"name": "steve spazing and weird plank",
+		"author": "bagel the fox",
+		"description": "",
+		"video_width": 1280,
+		"video_height": 720,
+		"video_keep_aspect_ratio": true,
+		"tempo": 24,
+		"timeline": {
+			"repeat": false,
+			"seamless_repeat": false,
+			"show_seconds": true,
+			"marker": 0,
+			"list_width": 320,
+			"hor_scroll": 0,
+			"zoom": 31.99999,
+			"region_start": "null",
+			"region_end": "null"
+		},
+		"work_camera": {
+			"focus": [ -4.28614, 6.29155, 29.8047 ],
+			"angle_xy": 256.4881,
+			"angle_z": 32.76685,
+			"roll": 0,
+			"zoom": 58.54918
+		}
+	},
+	"background": {
+		"image_show": false,
+		"image": "null",
+		"image_type": "image",
+		"image_stretch": true,
+		"image_box_mapped": false,
+		"image_rotation": 0,
+		"sky_sun_tex": "default",
+		"sky_moon_tex": "default",
+		"sky_moon_phase": 0,
+		"sky_time": -45,
+		"sky_rotation": 0,
+		"sunlight_range": 2000,
+		"sunlight_follow": false,
+		"sunlight_strength": 0,
+		"desaturate_night": false,
+		"desaturate_night_amount": 0,
+		"sky_clouds_show": true,
+		"sky_clouds_flat": false,
+		"sky_clouds_story_mode": false,
+		"sky_clouds_tex": "default",
+		"sky_clouds_speed": 1,
+		"sky_clouds_z": 1000,
+		"sky_clouds_size": 192,
+		"sky_clouds_height": 64,
+		"sky_clouds_offset": 0,
+		"ground_show": true,
+		"ground_name": "block/grass_block_top",
+		"ground_tex": "default",
+		"biome": "plains",
+		"sky_color": "#89AFFD",
+		"sky_clouds_color": "#FFFFFF",
+		"sunlight_color": "#FCFFC7",
+		"ambient_color": "#696EA1",
+		"night_color": "#0E0E18",
+		"foliage_color": "#77AB2F",
+		"grass_color": "#91BD59",
+		"water_color": "#3E75E1",
+		"fog_show": true,
+		"fog_sky": true,
+		"fog_color_custom": false,
+		"fog_color": "#89AFFD",
+		"fog_object_color_custom": false,
+		"fog_object_color": "#89AFFD",
+		"fog_distance": 10000,
+		"fog_size": 2000,
+		"fog_height": 1250,
+		"wind": true,
+		"wind_speed": 0.1,
+		"wind_strength": 0.5,
+		"opaque_leaves": false,
+		"texture_animation_speed": 0.25
+	},
+	"templates": [
+		{
+			"id": "TDJMNB4W92E23E9S",
+			"type": "block",
+			"name": "",
+			"block": {
+				"name": "planks",
+				"state": {
+					"variant": "oak"
+				},
+				"tex": "default",
+				"repeat_enable": false,
+				"repeat": [ 1, 1, 1 ]
+			}
+		},
+		{
+			"id": "68OXXK8W93V0FQD3",
+			"type": "char",
+			"name": "",
+			"model_tex": "default",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				},
+				"model_version": 0
+			}
+		}
+	],
+	"timelines": [
+		{
+			"id": "518X747T5877YH46",
+			"type": "block",
+			"name": "",
+			"temp": "TDJMNB4W92E23E9S",
+			"color": "#800008",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+			},
+			"keyframes": {
+				"2": {
+					"POS_Z": -1.22439,
+					"ROT_X": 11.57254
+				},
+				"3": {
+					"POS_Y": 1.60611,
+					"POS_Z": -3.09648,
+					"ROT_X": 21.05925
+				},
+				"4": {
+					"POS_Y": 4.36947,
+					"POS_Z": -4.61432,
+					"ROT_X": 26.11812
+				},
+				"5": {
+					"POS_Y": 4.36947,
+					"POS_Z": -8.6844,
+					"ROT_X": 36.5874
+				},
+				"6": {
+					"POS_Y": 4.36947,
+					"POS_Z": -11.92122,
+					"ROT_X": 36.5874
+				},
+				"7": {
+					"POS_Y": 4.36947,
+					"POS_Z": -15.22126,
+					"ROT_X": 36.5874
+				},
+				"8": {
+					"POS_Y": 18.40194,
+					"POS_Z": -25.02478,
+					"ROT_X": 36.5874
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 8 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "8VF9NA13KK6G5QX3",
+			"type": "char",
+			"name": "",
+			"temp": "68OXXK8W93V0FQD3",
+			"color": "#007480",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"44P1623E78XUNA01",
+				"X8625LZ775Y7E665",
+				"A0YQ7N6ZX55B5HEN",
+				"XJU037472ED8576X",
+				"G9X01Q11K53IDY2B",
+				"1JZNFC8MV6YONO94",
+				"6X7YQ8Z350D7048H"
+			],
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"POS_Y": -16.06866
+				},
+				"10": {
+					"POS_Y": -16.06866,
+					"ROT_Y": -17.04341
+				},
+				"12": {
+					"POS_Y": -16.06866,
+					"ROT_Y": -75.06857
+				},
+				"13": {
+					"POS_Y": -16.06866,
+					"ROT_Y": -97.87912
+				},
+				"14": {
+					"POS_Y": -16.06866,
+					"ROT_Y": -177.47365
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": true,
+			"texture_filtering": false,
+			"shadows": false,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "44P1623E78XUNA01",
+			"type": "bodypart",
+			"name": "",
+			"temp": "68OXXK8W93V0FQD3",
+			"color": "#803900",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "8VF9NA13KK6G5QX3",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "X8625LZ775Y7E665",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": false,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "X8625LZ775Y7E665",
+			"type": "bodypart",
+			"name": "",
+			"temp": "68OXXK8W93V0FQD3",
+			"color": "#801700",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "8VF9NA13KK6G5QX3",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "G9X01Q11K53IDY2B",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": false,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "A0YQ7N6ZX55B5HEN",
+			"type": "bodypart",
+			"name": "",
+			"temp": "68OXXK8W93V0FQD3",
+			"color": "#804800",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "8VF9NA13KK6G5QX3",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -61.22086
+				},
+				"1": {
+					"ROT_X": -51.10237
+				},
+				"2": {
+					"ROT_X": -51.10237,
+					"ROT_Z": -50.73602
+				},
+				"3": {
+					"ROT_X": -28.85764,
+					"ROT_Z": -50.73602
+				},
+				"4": {
+					"ROT_X": -2.8566,
+					"ROT_Z": -10.37148,
+					"BEND_ANGLE_X": -48.05077
+				},
+				"5": {
+					"BEND_ANGLE_X": -48.05077
+				}
+			},
+			"parent": "G9X01Q11K53IDY2B",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": false,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "XJU037472ED8576X",
+			"type": "bodypart",
+			"name": "",
+			"temp": "68OXXK8W93V0FQD3",
+			"color": "#3E0080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "8VF9NA13KK6G5QX3",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "G9X01Q11K53IDY2B",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": false,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "G9X01Q11K53IDY2B",
+			"type": "bodypart",
+			"name": "",
+			"temp": "68OXXK8W93V0FQD3",
+			"color": "#800700",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "8VF9NA13KK6G5QX3",
+			"default_values": {
+			},
+			"keyframes": {
+				"15": {
+					"ROT_Y": -91.84714
+				},
+				"16": {
+					"ROT_Y": -145.97797
+				},
+				"17": {
+					"ROT_Y": -181.29723
+				},
+				"18": {
+					"ROT_Y": -182.83412
+				}
+			},
+			"parent": "8VF9NA13KK6G5QX3",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": false,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "1JZNFC8MV6YONO94",
+			"type": "bodypart",
+			"name": "",
+			"temp": "68OXXK8W93V0FQD3",
+			"color": "#003880",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "8VF9NA13KK6G5QX3",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "8VF9NA13KK6G5QX3",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": true,
+			"texture_filtering": false,
+			"shadows": false,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "6X7YQ8Z350D7048H",
+			"type": "bodypart",
+			"name": "",
+			"temp": "68OXXK8W93V0FQD3",
+			"color": "#008015",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "8VF9NA13KK6G5QX3",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "8VF9NA13KK6G5QX3",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": true,
+			"texture_filtering": false,
+			"shadows": false,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		}
+	],
+	"resources": [
+	]
+}
